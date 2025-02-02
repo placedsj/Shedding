@@ -1,0 +1,20 @@
+/shed-builder
+│-- /frontend                # React Frontend
+│   │-- /src
+│   │   │-- App.js           # Main App component
+│   │   │-- index.js         # React entry point
+│   │   │-- /components
+│   │   │   │-- Chatbot.js   # Chatbot UI
+│   │   │   │-- ShedBuilder.js # 3D Configurator
+│   │   │   │-- Checkout.js  # Stripe Checkout
+│   │-- package.json         # Frontend dependencies
+│   │-- .env                 # Frontend environment variables
+│-- /backend                 # FastAPI Backend
+│   │-- server.py            # FastAPI backend
+│   │-- /models              # Shed config, orders, users
+│   │-- /routes              # API routes (chatbot, checkout, orders)
+│   │-- requirements.txt     # Backend dependencies
+│   │-- .env                 # Backend environment variables
+│   │-- Procfile             # Deployment (Heroku)
+│-- README.md                # Project documentation
+│-- .gitignore               # Ignore unnecessary files
