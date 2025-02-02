@@ -1,0 +1,5 @@
+git add .
+git commit -m "Initial commit - AI-powered shed builder"
+git branch -M main
+git remote add origin https://github.com/YOUR-USERNAME/shed-builder.git
+git push -u origin main
